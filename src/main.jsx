@@ -4,6 +4,7 @@ import Posts from "./Posts";
 import NotFound from "./ErrorPage";
 import Index from "./Index";
 import PostsID from "./PostsID";
+import Fws from "./Fws";
 import './style.css';
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
       <Routes>
           <Route path="/posts/:id" element={<PostsID />} />
           <Route path="/posts" element={<Posts />} />
+          <Route path="/system" element={<Fws />} />
           <Route path="/" element={<Index />} />
           <Route path="*" element={<NotFound />} />
       </Routes>

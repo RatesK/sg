@@ -16,10 +16,10 @@ export default function Index() {
         </Link>
 
         <Link
-          to="/user"
+          to="/system"
           className="bg-gray-800 hover:bg-gray-700 text-blue-400 hover:text-blue-300 px-8 py-4 rounded-lg border border-blue-500 hover:border-blue-400 transition-all duration-200 flex-1 min-w-[200px] text-center"
         >
-          <h2 className="text-xl font-semibold mb-1">User Page</h2>
+          <h2 className="text-xl font-semibold mb-1">System</h2>
         </Link>
         
       </div>

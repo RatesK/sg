@@ -8,8 +8,8 @@ export default function NotFound() {
   useEffect(() => {
     // Check if the previous page was the home page
     if (document.referrer && 
-        (document.referrer.includes(window.location.origin + '/') || 
-         document.referrer === window.location.origin + '/')) {
+        (document.referrer.includes(window.location.origin + '/sg') || 
+         document.referrer === window.location.origin + '/sg')) {
       setShowBackButton(false);
     }
   }, []);
